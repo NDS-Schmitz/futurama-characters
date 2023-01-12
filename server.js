@@ -5,23 +5,6 @@ const PORT = 4000;
 
 //webpage data
 
-document.querySelector('button').addEventListener('click', apiRequest);
-
-async function apiRequest() {
-	const name = document.querySelector('input').value;
-	try {
-		const response = await fetch(
-			`https://salmon-fossa-tutu.cyclic.app/${name}`
-		);
-		const data = await response.json();
-
-		console.log(data);
-		document.querySelector('h2').innerText = data.Speices;
-	} catch (error) {
-		console.log(error);
-	}
-}
-
 //json data
 
 const characters = {
