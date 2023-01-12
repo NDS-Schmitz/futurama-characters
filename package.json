@@ -1,14 +1,14 @@
 {
-  "name": "presidents-api",
-  "version": "1.0.0",
-  "description": "API for Futurama",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nick Schmitz",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+	"name": "presidents-api",
+	"version": "1.0.0",
+	"description": "API for Futurama",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Nick Schmitz",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.2"
+	}
 }
